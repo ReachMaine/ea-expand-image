@@ -1,0 +1,55 @@
+/*
+Error: Invalid CSS after "100% !important": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of F:/Internet/Users/TimS/GitHub Websites/Testing/Avada-Child-Theme/sass/partials/ea_expand_image.sass
+
+1: .expanded-image, .expanded-image img {
+2:     max-width: 100% !important;
+3:     width: 100%;
+4:     transition-duration: 1s;
+5: }
+6: 
+7: .wp-caption, .wp-caption img {
+
+Backtrace:
+F:/Internet/Users/TimS/GitHub Websites/Testing/Avada-Child-Theme/sass/partials/ea_expand_image.sass:2
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/scss/parser.rb:1164:in `expected'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/script/lexer.rb:220:in `expected!'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/script/parser.rb:601:in `assert_done'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/script/parser.rb:63:in `parse'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/script/parser.rb:183:in `parse'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/script.rb:27:in `parse'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:1120:in `parse_script'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:710:in `parse_property'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:681:in `parse_property_or_rule'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:647:in `parse_line'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:525:in `build_tree'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:544:in `append_children'
+org/jruby/RubyArray.java:1613:in `each'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:543:in `append_children'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:534:in `build_tree'
+org/jruby/RubyArray.java:1613:in `each'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:527:in `build_tree'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:544:in `append_children'
+org/jruby/RubyArray.java:1613:in `each'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:543:in `append_children'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:396:in `_to_tree'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/engine.rb:268:in `render'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+org/jruby/RubyMethod.java:136:in `call'
+file:/C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/compass-app.jar!/hook/compass_patch.rb:108:in `update_stylesheet'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:215:in `update_stylesheets'
+org/jruby/RubyArray.java:1613:in `each'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/compass_1.0/sass-3.4.1/lib/sass/plugin/compiler.rb:329:in `watch'
+org/jruby/RubyProc.java:271:in `call'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/listener.rb:236:in `on_change'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/listener.rb:271:in `initialize_adapter'
+org/jruby/RubyProc.java:271:in `call'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+C:/Users/TimS.BAKERSVILLE/Downloads/compass.app.windows.v1.28.1/compass.app/lib/ruby/jruby/listen-1.1.6/lib/listen/adapter.rb:289:in `start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"100% !important\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of F:/Internet/Users/TimS/GitHub Websites/Testing/Avada-Child-Theme/sass/partials/ea_expand_image.sass\A \A 1: .expanded-image, .expanded-image img {\A 2:     max-width: 100% !important;\A 3:     width: 100%;\A 4:     transition-duration: 1s;\A 5: }\A 6: \A 7: .wp-caption, .wp-caption img {"; }
