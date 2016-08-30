@@ -1,4 +1,13 @@
 <?php /* ea_expand_image */
+
+	function theme_enqueue_styles() {
+		// will need to fix this as well as enqueue style.
+	   // wp_enqueue_script('ea_expand_image', get_stylesheet_directory_uri().'/ea_expand_image.js', array( 'jquery' ) );
+
+	}
+	add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+	
+	
 /* purpose - to allow a light box type of image expansion with out the light box stuff */
 // add ea-contracted-image class to the caption.
 add_filter( 'img_caption_shortcode', 'my_img_caption_shortcode', 10, 3 );
